@@ -138,21 +138,18 @@ header .menu .login:hover {
   position: absolute;
   top: 10px;
   left: 400px;
-  margin: auto;
 }
 
 .searchbox .material-icons.keyboardicon {
   position: absolute;
   top: 8px;
   right: 446px;
-  margin: auto;
 }
 
 .searchbox .material-icons.micicon {
   position: absolute;
   top: 8px;
   right: 410px;
-  margin: auto;
 }
 
 /* SEARCHBOX btn */
