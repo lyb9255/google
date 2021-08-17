@@ -1,0 +1,250 @@
+/* COMMON */
+
+body {
+  font-size: 16px;
+  font-family: 'Apple SD Gothic Neo', 'Nanum Gothic', Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+}
+
+
+/* HEADER */
+
+header {
+  height: 48px;
+  position: relative;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+header .menu {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(0,0,0,.87);
+  padding-left: 15px;
+  display: flex;
+}
+
+header .menu .menu__text {
+  margin-top: 8px;
+  display: flex;
+}
+
+header .menu .menu__text .gmail {
+  margin-right: 15px;
+}
+
+
+header .menu .menu__text .gmail:hover {
+  text-decoration: underline;
+}
+
+header .menu .menu__text .imagemenu {
+  margin-right: 15px;
+}
+
+header .menu .menu__text .imagemenu:hover {
+  text-decoration: underline;
+}
+
+header .menu .menu__right {
+  display: flex;
+}
+
+header .menu .icon__apps {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+header .menu .icon__apps:hover {
+  background-color: rgba(60,64,67,0.08);
+  border-radius: 50%
+}
+
+
+header .menu .login {
+  width: 100px;
+  height: 30px;
+  background-color: #1A73E8;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+  align-items: center;
+  padding: 9px 23px;
+  box-sizing: border-box;
+  margin : 0 8px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+header .menu .login:hover {
+  background-color: #2b7de9;
+  box-shadow: 1px 1px 0 rgba(66, 133, 244, .3)
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  margin-top: 180px;
+}
+
+/* SEARCHBOX */
+
+.searchbox {
+  text-align: center;
+  margin-top: 24px;
+  position: relative;
+}
+
+.searchbox > input {
+  width: 581px;
+  height: 42px;
+  padding-left: 45px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+.searchbox > input:hover {
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.searchbox > input:focus {
+  border: none;
+  box-shadow: 0 0 5px rgba(0,0,0,.23);
+}
+
+.searchbox .material-icons {
+  cursor: pointer;
+}
+
+.searchbox .material-icons.searchicon {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+  margin: auto;
+}
+
+.searchbox .material-icons.keyboardicon {
+  position: absolute;
+  top: 8px;
+  right: 446px;
+  margin: auto;
+}
+
+.searchbox .material-icons.micicon {
+  position: absolute;
+  top: 8px;
+  right: 410px;
+  margin: auto;
+}
+
+/* SEARCHBOX btn */
+.searchboxbtn {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.searchboxbtn .searchbtn {
+  height: 39px;
+  border: 1px solid transparent;
+  margin: 11px 4px;
+  outline: none;
+  border-radius: 6px;
+  background-color: #f8f9fa;;
+  padding: 0 16px;
+  color: #3c4043;
+  line-height: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.searchboxbtn .searchbtn:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 0 2px #dadce0;
+}
+
+
+.searchboxbtn .feelinglucky {
+  height: 39px;
+  border: 1px solid transparent;
+  margin: 11px 4px;
+  outline: none;
+  border-radius: 6px;
+  background-color: #f8f9fa;;
+  padding: 0 16px;
+  color: #3c4043;
+  line-height: 24px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.searchboxbtn .feelinglucky:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 0 2px #dadce0;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 95px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+}
+
+footer .upper-section {
+  width: 100%;
+  height: 50%;
+  color: #70757a;
+  border-bottom: 1px solid #DADCE0;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+footer .lower-section {
+  width: 100%;
+  height: 50%;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .lower-section__left {
+  float:left;
+}
+
+footer .lower-section__left > a {
+  margin-right: 10px;
+  color: #70757a;
+
+}
+
+footer .lower-section__right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .lower-section__right > a {
+  margin-right: 10px;
+  color: #70757a;
+}
