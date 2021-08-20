@@ -23,6 +23,7 @@ header {
 
 header .menu {
   display: flex;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -105,31 +106,45 @@ header .menu .login:hover {
 .logo .google__logo {
   height: 92px;
 }
+
 /* SEARCHBOX */
 
+.searchboxwrapper {
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+}
+
 .searchbox {
-  text-align: center;
+  width: 581px;
+  padding-left: 10px;
   margin-top: 24px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 25px;
 }
 
 .searchbox > input {
   width: 581px;
   height: 42px;
-  padding-left: 45px;
-  border-radius: 25px;
-  box-sizing: border-box;
   outline: none;
-  border: 1px solid rgba(0,0,0,.1);
+  padding-left: 10px;
+  border: none;
   font-size: 16px;
+  box-sizing: border-box
 }
 
-.searchbox > input:hover {
+.searchbox:hover {
   border: none;
   box-shadow: 0 0 5px rgba(0,0,0,.33);
 }
 
-.searchbox > input:focus {
+/* html, css만으로 div에 :focus 적용하는 방법 아직 못찾음. 아래 선택자는 현재 작동하지 않음*/
+.searchbox:focus {
   border: none;
   box-shadow: 0 0 5px rgba(0,0,0,.33);
 }
@@ -141,21 +156,15 @@ header .menu .login:hover {
 .searchbox .material-icons.searchicon {
   width: 20px;
   height: 20px;
-  position: absolute;
-  top: 10px;
-  left: 330px;
+
 }
 
 .searchbox .material-icons.keyboardicon {
-  position: absolute;
-  top: 8px;
-  right: 370px;
+  margin-right: 10px;
 }
 
 .searchbox .material-icons.micicon {
-  position: absolute;
-  top: 8px;
-  right: 334px;
+  margin-right: 10px;
 }
 
 /* SEARCHBOX btn */
