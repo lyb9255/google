@@ -126,6 +126,7 @@ header .menu .login:hover {
   align-items: center;
   border: 1px solid rgba(0,0,0,.1);
   border-radius: 25px;
+  box-sizing: border-box;
 }
 
 .searchbox > input {
@@ -139,7 +140,7 @@ header .menu .login:hover {
 }
 
 .searchbox:hover {
-  border: none;
+  border: 1px solid transparent;
   box-shadow: 0 0 5px rgba(0,0,0,.33);
 }
 
